@@ -43,7 +43,7 @@ public class EditorTextoSimple {
 
     /**
      * Función para mostrar el texto actual (equivalente a peek)
-     * Implementado por: Integrante 1
+     * Implementado por: Yenni Vanessa Delgado
      */
     public static void mostrarTextoActual() {
         if (textoActual.isEmpty()) {
