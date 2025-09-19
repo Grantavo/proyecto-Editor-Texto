@@ -15,8 +15,48 @@ public class EditorTextoSimple {
     //Pila principal para guardar las acciones realizadas
     static Stack<String> pilaPrincipal = new Stack<>();
     //Pila secundaria para guardar las acciones desechas
-    static Stack<String> pilasSecundaria = new Stack<>();
+    static Stack<String> pilaSecundaria = new Stack<>();
     //Texto actual del editor
     static String textoActual = "";
+
+    /**
+     * Función para escribir texto
+     * Implementado por : Yenni Vanessa Delgado
+     */
+
+    public static void escribirTexto(String nuevoTexto) {
+        // Guardar el estado actual en la pila principal
+        pilaPrincipal.push(textoActual);
+
+        // Actualizar el texto actual
+        if (textoActual.isEmpty()) {
+            textoActual = nuevoTexto;
+        } else {
+            textoActual += "\n" + nuevoTexto;
+        }
+
+        //  Limpiar la pila secundaria al realizar nueva acción
+        pilaSecundaria.clear();
+
+        System.out.println("Texto agregado correctamente.");
+    }
+
+    /**
+     * Función para mostrar el texto actual (equivalente a peek)
+     * Implementado por: Integrante 1
+     */
+    public static void mostrarTextoActual() {
+        if (textoActual.isEmpty()) {
+            System.out.println("El editor está vacío.");
+        } else {
+            System.out.println("Texto actual:");
+            System.out.println("================");
+            System.out.println(textoActual);
+            System.out.println("================");
+        }
+    }
+
+
+
 
 }
