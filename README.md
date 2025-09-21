@@ -39,10 +39,10 @@ El programa es un **Editor de Texto Simple en Java** que permite:
 Encargada de las **pilas y funciones básicas**:
 
 - **push() → Agregar un elemento a la pila**  
-  *(Captura escribiendo varias frases para mostrar cómo se guarda el estado anterior en la pila principal)*
+  ![ingresandoDatos](https://github.com/user-attachments/assets/71f4cdbc-84ea-449b-9455-4a228d2d5035)
 
 - **peek() → Ver el último elemento sin eliminarlo**  
-  *(Captura mostrando el texto actual después de escribir, equivalente a consultar la cima de la pila)*
+  ![consultaDatos](https://github.com/user-attachments/assets/909c8115-5e40-406f-8065-33b650a81cc4)
 
 ---
 
@@ -50,13 +50,14 @@ Encargada de las **pilas y funciones básicas**:
 Encargado de la **funcionalidad Undo/Redo y el menú**:
 
 - **pop() → Eliminar el último elemento agregado**  
-  *(Captura después de aplicar Undo, evidenciando cómo se recupera el texto anterior al sacar el último de la pila)*
+![undo](https://github.com/user-attachments/assets/029d16d3-a418-4358-8603-aef901c1e84d)
+![redo](https://github.com/user-attachments/assets/ae6701a7-e18e-439e-971b-b238e6418d14)
 
 - **isEmpty() → Verificar si la pila está vacía**  
-  *(Captura intentando deshacer o rehacer cuando no hay acciones disponibles, mostrando el mensaje: “No hay acciones para deshacer/rehacer”)*
+![pilaVacia](https://github.com/user-attachments/assets/e5dfd64d-078f-435b-8c3b-50d4910450cc)
 
 - **Uso del Menú interactivo**  
-  *(Captura navegando por el menú y probando distintas opciones)*
+![opciones](https://github.com/user-attachments/assets/8d7d107f-6d1e-46fa-834c-4b8724bd4513)
 
 ---
 
