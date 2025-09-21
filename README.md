@@ -35,8 +35,6 @@ El programa es un **Editor de Texto Simple en Java** que permite:
 
 ## Evidencia de Ejecución (Funciones Principales y Operaciones de Pila)
 
-### Funciones de la integrante Yenni Vanessa Delgado
-Encargada de las **pilas y funciones básicas**:
 
 - **push() → Agregar un elemento a la pila**  
   ![ingresandoDatos](https://github.com/user-attachments/assets/71f4cdbc-84ea-449b-9455-4a228d2d5035)
@@ -46,8 +44,7 @@ Encargada de las **pilas y funciones básicas**:
 
 ---
 
-### Funciones del Integrante Gustavo Adolfo 
-Encargado de la **funcionalidad Undo/Redo y el menú**:
+### Funcionalidad Undo/Redo y el menú**:
 
 - **pop() → Eliminar el último elemento agregado**  
 ![undo](https://github.com/user-attachments/assets/029d16d3-a418-4358-8603-aef901c1e84d)
@@ -63,8 +60,8 @@ Encargado de la **funcionalidad Undo/Redo y el menú**:
 
 ## Autores
 
-- **Integrante 1**: Yenni Vanessa Delgado – Implementación de pilas y funciones básicas.
-- **Integrante 2**: Gustavo Adolfo Piedrahita – Implementación de Undo/Redo y menú interactivo.
+
+- **Integrante**: Gustavo Adolfo Piedrahita 
 
 ---
 
@@ -75,6 +72,4 @@ Cada función del programa (escribir, mostrar, deshacer, rehacer) refleja direct
 
 ## Instrucciones de ejecución
 
-1. Clonar este repositorio:
-   ```bash
-   git clone https://github.com/yennivanessa97/editor-texto-undo-redo.git
+

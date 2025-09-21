@@ -8,13 +8,12 @@ public class EditorTextoSimple {
     static PilaManual<String> pilaPrincipal = new PilaManual<>();
     static PilaManual<String> pilaSecundaria = new PilaManual<>();
 
-    // El resto del código de Yenny lo dejé EXACTAMENTE IGUAL.
+   
     static String textoActual = "";
 
     /**
      * Función para escribir texto
-     * Implementado por: Yenni Vanessa Delgado
-     */
+          */
     public static void escribirTexto(String nuevoTexto) {
         pilaPrincipal.push(textoActual);
 
@@ -31,8 +30,7 @@ public class EditorTextoSimple {
     }
 
     /**
-     * Función para mostrar el texto actual
-     * Implementado por: Yenni Vanessa Delgado
+     * Función para mostrar el texto actual 
      */
     public static void mostrarTextoActual() {
         if (textoActual.isEmpty()) {
@@ -47,8 +45,7 @@ public class EditorTextoSimple {
 
     /**
      * Función para deshacer la última acción (Undo)
-     * Implementado por: Gustavo Adolfo Merchancano Piedrahita
-     */
+         */
     public static void deshacer() {
         if (pilaPrincipal.isEmpty()) {
             System.out.println("No hay acciones para deshacer.");
@@ -61,7 +58,6 @@ public class EditorTextoSimple {
 
     /**
      * Función para rehacer la última acción deshecha (Redo)
-     * Implementado por: Gustavo Adolfo Merchancano Piedrahita
      */
     public static void rehacer() {
         if (pilaSecundaria.isEmpty()) {
