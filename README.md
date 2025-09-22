@@ -37,24 +37,27 @@ El programa es un **Editor de Texto Simple en Java** que permite:
 
 
 - **push() → Agregar un elemento a la pila**  
-  ![ingresandoDatos](https://github.com/user-attachments/assets/71f4cdbc-84ea-449b-9455-4a228d2d5035)
+  ![ingresandoDatos](https://github.com/user-attachments/assets/e6d1f519-88ef-40fd-b55d-707e0a4f0b11)
+
 
 - **peek() → Ver el último elemento sin eliminarlo**  
-  ![consultaDatos](https://github.com/user-attachments/assets/909c8115-5e40-406f-8065-33b650a81cc4)
+![consultaDatos](https://github.com/user-attachments/assets/ad0de91a-94cb-431d-a98d-904fedb22643)
 
 ---
 
 ### Funcionalidad Undo/Redo y el menú**:
 
 - **pop() → Eliminar el último elemento agregado**  
-![undo](https://github.com/user-attachments/assets/029d16d3-a418-4358-8603-aef901c1e84d)
-![redo](https://github.com/user-attachments/assets/ae6701a7-e18e-439e-971b-b238e6418d14)
+![redo](https://github.com/user-attachments/assets/352ae249-c761-422a-9e58-2a6df3f76b2e)
+![undo](https://github.com/user-attachments/assets/188ecc0e-e02d-4852-8f17-8eac586ed99f)
+
 
 - **isEmpty() → Verificar si la pila está vacía**  
-![pilaVacia](https://github.com/user-attachments/assets/e5dfd64d-078f-435b-8c3b-50d4910450cc)
+![pilaVacia](https://github.com/user-attachments/assets/290f6b72-193d-4cb8-8c01-3490ac04241f)
+
 
 - **Uso del Menú interactivo**  
-![opciones](https://github.com/user-attachments/assets/8d7d107f-6d1e-46fa-834c-4b8724bd4513)
+![opciones](https://github.com/user-attachments/assets/91b05d24-719f-48d9-ba5b-45d6d92ee61d)
 
 ---
 
@@ -70,6 +73,6 @@ El programa es un **Editor de Texto Simple en Java** que permite:
 Este proyecto permite evidenciar cómo una **estructura de datos tipo pila** puede utilizarse para implementar acciones comunes en editores de texto como **Undo** y **Redo**.  
 Cada función del programa (escribir, mostrar, deshacer, rehacer) refleja directamente las operaciones **push, pop, peek e isEmpty** de una pila, reforzando la teoría con la práctica.
 
-## Instrucciones de ejecución
+
 
 
